@@ -1,4 +1,5 @@
 #include<iostream>
+using namespace std;
 bool searchIntoBST(Node *root,int element)
 {
     if(root==NULL)
