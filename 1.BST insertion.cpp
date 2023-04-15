@@ -138,7 +138,7 @@ void takeInput(Node* &root) {
 
 }
 
-int main(int argc, char const *argv[])
+void main(int argc, char const *argv[])
 {
     Node* root = NULL;
 
@@ -150,5 +150,5 @@ int main(int argc, char const *argv[])
 
     cout << endl << "Printitng Indorder " << endl;
     inorder(root);
-    return 0;
+   
 }
